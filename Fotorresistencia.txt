@@ -1,0 +1,11 @@
+void setup()
+{
+  pinMode(ft, INPUT);
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  valor_ft = analogRead(ft);
+  Serial.println(valor_ft);
+}

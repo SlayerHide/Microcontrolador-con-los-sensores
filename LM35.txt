@@ -1,0 +1,13 @@
+int t = 0;
+void()
+{
+pinMode(13,OUTPUT);
+}
+void loop(){
+t = analogRead(A0);
+digitalWrite(13,HIGH);
+delay(t);
+digitalWrite(13,LOW);
+delay(t);
+
+}
